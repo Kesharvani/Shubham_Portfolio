@@ -2,3 +2,11 @@
 body{
     font-family: 'Roboto Slab', serif;
 }
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.centre_container{
+    max-width: 600px;
+    margin: auto;
+}
