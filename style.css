@@ -4,6 +4,8 @@ body{
 }
 :root{
     --primary-color:#be123c;
+    --offwhite-color:#cbd5e1;
+    --secondry-color:#475569;
 }
 .container{
     padding-left: 1rem;
@@ -57,4 +59,27 @@ body{
 }
 .navigation .link-active{
     font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    margin: auto;
+    display: block;
+    max-width: 350px;
+}
+.hero .hero-heading{
+    color: var(--secondry-color);
+    padding 1rem;
+}
+
+section{
+    padding: 1.5rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+.ow{
+    background-color:var(--offwhite-color) ;
 }
