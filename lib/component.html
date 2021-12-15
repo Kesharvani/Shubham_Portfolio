@@ -4,10 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Shubham Kesharvani</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Component Library</title>
+
+    <!--css way:1 style tag
+    <style>
+
+        body{
+            color:red
+        }
+    </style>-->
+
+
+    <!--
+
+        Third and famous way:
+    -->
+    <link rel="stylesheet" href="/style.css"/>
 </head>
 <body>
+    <!-- Second way to of style tag
+    <h1 style=color:red>Welcome to Shubham's library</h1>-->
+    <h1>Welcome to Shubham's library</h1>
+    <p>I am learning from youtube to create a library to use it in near future</p>
+
+    <hr >
+
+    <h2>@Typography</h2>
+    <h1>This is the bigget heading</h1>
+    <h2>This is second biggest heading</h2>
+    <p>Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph</p>
+    <p>This is <strong>bold</strong> paragraph</p>
+    <small>This is relatively smaller text</small>
+
+    <hr >
+
+    <h2>@container</h2>
+    <h3>Fluid_container</h3>
+    <div class="container flued_container">This is fluid container and it will go till end of the page</div>
+    <h3>Centre container</h3>
+    <div class="container centre_container">This is centre container and it will go till specified width </div>
+   
+    <hr >
+    <h1>@Links</h1>
+    <a class="Link link-primary" href="/">Primary Link</a> 
+    <a class="Link link-secondary"href="/">Secondary link</a>
+
+    <hr >
+
+    <h2>@List</h2>
+    <h3>Unorderd list</h3>
+    <ul class="unordered-list">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul >
+    <h3>Unordered inline list</h3>
+    <ul class="unordered-list">
+        <li class="list-item-inline">Inline item one</li>
+        <li class="list-item-inline">Inline item two</li>
+        <li class="list-item-inline">Inline item three</li>
+    </ul>
+    <h3>Reversed order list</h3>
+    <ol reversed>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+
+    </ol>
+
+    <hr>
+    <h2>@Nav</h2>
     <nav class="navigation container">
         <div class="item">Iamdeveloper</div>
         <ul class="unordered-list textalign">
@@ -16,54 +82,50 @@
                 <a class="Link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline" >
-                <a class="Link" href="project.html">Project</a>
+                <a class="Link" href="/">Project</a>
             </li>
             <li class="list-item-inline">
-                <a class="Link" href="blog.html">Blog</a>
+                <a class="Link" href="/">Blog</a>
             </li>
         </ul>
     </nav>
 
+    <hr >
+
+    <h2>@Header</h2>
     <header class="hero">
         <img class="hero-img"src="/images/img.svg" alt="Something wrong"/>
-        <h1 class="hero-heading">Shubham Kesharvani the <strong style=color:yellow>Web developer</strong></h1>
+        <h1 class="hero-heading">heading inside here</h1>
     </header>
-
+    <hr >
+    <h2>@Section</h2>
+    <section class="section">
+        <div class="container centre_container">
+        <h1>White section</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
+        </div>
+    </section>
     <section class="section ow">
         <div class="container centre_container">
         <h1>Off white background</h1>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
         </div>
     </section>
-    
-    <section class="section">
-        <div class="container centre_container">
-        <h1>White section</h1>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
-        <a class="Link link-primary" href="/">Primary Link</a> 
-    </div>
-    </section>
 
-    <section class="section ow">
-        <div class="container centre_container">
-        <h1>Off white background</h1>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose</p>
-        <a class="Link link-secondary"href="/">Secondary link</a>
-    </div>
-    </section>
-
+    <hr>
+    <h2>@Footer</h2>
     <footer class="footer">
 
-        <div class="footer-header">Social media presence</div>
+        <div class="footer-header">Some small heading in footer section</div>
         <ul class="social-link">
 
             <li class="list-item-inline">
-                <a class="Link" href="https://www.linkedin.com/mwlite/in/shubham-kesharvani">
+                <a class="Link" href="/">
                      Social one
                     </a>
                 </li>
             <li class="list-item-inline">
-                <a class="Link" href="https://www.github.com/Kesharvani">
+                <a class="Link" href="/">
                     Social two
                 </a>
             </li>
@@ -74,5 +136,6 @@
             </li>
         </ul>
     </footer>
+
 </body>
 </html>
