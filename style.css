@@ -28,7 +28,6 @@ body{
 .link-secondary
 {
     color: var(--primary-color);
-    margin: 1rem;
     border-radius: 0.5rem;
     border: 0.5px solid var(--primary-color);
     
